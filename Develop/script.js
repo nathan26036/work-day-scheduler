@@ -25,8 +25,8 @@ $(function () {
   console.log(currentTime);
 
   //loops the if statement for each time block element
-  $(".time-block").each(function () { {
-    var scheduleEl = parseInt($(this).attr("id"));;
+  $(".time-block").each(function () { 
+    var scheduleEl = parseInt($(this).attr("id"));
     $(this).removeClass("past, present, future");
     if (scheduleEl == currentTime) {
         $(this).addClass("present");
@@ -36,7 +36,7 @@ $(function () {
         $(this).addClass("future");
     }
     console.log(scheduleEl)
-    };
+    });
 
   // TODO: Add code to get any user input that was saved in localStorage and set
   // the values of the corresponding textarea elements. HINT: How can the id
@@ -55,5 +55,4 @@ $(function () {
   // TODO: Add code to display the current date in the header of the page.
   var today = dayjs();
 todayTime = $('#currentDay').text(today.format('dddd, MMMM D, YYYY'));
-})
 });
