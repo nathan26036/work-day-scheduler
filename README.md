@@ -12,10 +12,9 @@ Create a 9-5 daily planner where you can save an event that the user inputs. The
 * Created a way to get from local storage using the id of each time block so the users text stays in that box
 * Created a date displayer for the top of the page using dayjs
 
-![The java script used to create a random password]()
+![A 9-5 Schedule that is blue green and gray and has text that says meeting in the 3pm slot](https://github.com/nathan26036/work-day-scheduler/blob/main/Develop/images/Schedule%20screen.PNG)
   
 ## Installation 
 The final code deployed can be found at 
 
-## Resources
-* 
+
