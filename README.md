@@ -15,6 +15,6 @@ Create a 9-5 daily planner where you can save an event that the user inputs. The
 ![A 9-5 Schedule that is blue green and gray and has text that says meeting in the 3pm slot](https://github.com/nathan26036/work-day-scheduler/blob/main/Develop/images/Schedule%20screen.PNG)
   
 ## Installation 
-The final code deployed can be found at 
+The final code deployed can be found at https://nathan26036.github.io/work-day-scheduler/ 
 
 
